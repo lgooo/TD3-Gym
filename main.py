@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     file_name = f"TD3_{args.env}_{args.seed}"
     print("---------------------------------------")
-    print(f"Policy: {args.policy}, Env: {args.env}, Seed: {args.seed}")
+    print(f"TD3, Env: {args.env}, Seed: {args.seed}")
     print("---------------------------------------")
 
     if not os.path.exists("./results"):
